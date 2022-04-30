@@ -1,0 +1,27 @@
+{
+  "name": "aqua",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "production": "svelte-kit preview --host 0.0.0.0 --port 3000",
+    "preview": "svelte-kit preview",
+    "lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.20",
+    "@sveltejs/kit": "next",
+    "carbon-components-svelte": "^0.44.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "prettier": "~2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "svelte": "^3.34.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
